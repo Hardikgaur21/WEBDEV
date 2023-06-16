@@ -174,10 +174,16 @@ display: inline-block;
 background-color: var(--primaryColor);
 padding: 20px;
 margin-bottom: 20px;
+border-radius: 30%;
 }
 .serviceIcon{
     font-size: 3rem;
     color: whitesmoke;
+}
+
+.serviceIconDiv:hover{
+    background-color: rgb(223, 122, 33);
+    border-radius: 30%;
 }
 
 .serviceTitle{
